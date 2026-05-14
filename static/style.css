@@ -1,0 +1,10 @@
+  body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 20px;
+            background-color: #cebcbc;
+        }
+        #Contenido{
+            background-color: aqua;
+            height: 100px;
+            width: 100px;
+        }
