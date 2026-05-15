@@ -3,16 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-    <title>Sistema de Préstamos</title>
-    
+
+    <link rel="stylesheet"
+    href="{{ url_for('static', filename='style.css') }}">
+
+    <title>Sistema de Acceso Inteligente</title>
+
+    <script defer
+    src="{{ url_for('static', filename='js/script.js') }}">
+    </script>
+
 </head>
+
 <body>
-    <h1> Sistema de Acceso Inteligente</h1>
-    <main>
-        <div id = "right-secction">
-            
-        </div>
+
+    <h1>Sistema de Acceso Inteligente</h1>
+
+    <main class="contenido">
+
+        <section class="accesos">
+
+            <h2 id="Titulo">
+                Personas que accedieron al área
+            </h2>
+
+            <div id="contenedor-accesos">
+
+            </div>
+
+        </section>
+
+        <section class="salida-equipos">
+
+            <h2 id="Titulo">
+                Equipos que salieron del laboratorio
+            </h2>
+
+            <div id="contenedor-equipos">
+
+            </div>
+
+        </section>
+
+        <section class="salida-equipos">
+
+            <h2 id="Titulo">
+                Accesos denegados
+            </h2>
+
+            <div id="contenedor-denegados">
+
+            </div>
+
+        </section>
+
     </main>
+
 </body>
 </html>

@@ -1,10 +1,33 @@
   body {
-            font-family: 'Times New Roman', Times, serif;
-            margin: 20px;
-            background-color: #cebcbc;
-        }
-        #Contenido{
-            background-color: aqua;
-            height: 100px;
-            width: 100px;
-        }
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    background: linear-gradient(to left , #0F172A, #1E293B);
+}   
+        
+#Titulo{
+    font-size: 1.5rem;
+}
+
+.contenido{        
+    background-color: rgb(236, 236, 236);
+    margin-top: 20px;
+    border-radius: 7px;
+}
+.accesos{
+    padding: 10px;
+}
+
+.salida-equipos{
+    padding: 10px;
+}
+
+.cuadros-info{
+    border: 1px solid #14453e;
+    border-radius: 7px;
+    padding: 10px;
+    margin-bottom: 1%;
+    
+    background-color: white;
+}
+
+    
