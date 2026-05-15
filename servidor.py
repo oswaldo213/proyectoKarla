@@ -129,7 +129,7 @@ def identificar():
     equipo = cursor.fetchone()
 
     if equipo and id_usuario_actual:
-        cursor.execute("INSERT INTO Prestamo (Id_usuario, Id_equipo, Fecha, Hora) VALUES (?,?,?,?)",
+        cursor.execute("INSERT INTO Prestamo (Id_usuario, Id_equipo) VALUES (?,?)",
             (id_usuario_actual, equipo[0])
         )
         db.commit()

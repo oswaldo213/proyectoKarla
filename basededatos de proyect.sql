@@ -46,3 +46,10 @@ CREATE TABLE Peticiones_negadas(
     Hora TIME NOT NULL
 );
 
+ CREATE TABLE Sesion_activa (
+    Id_usuario INT PRIMARY KEY,
+    Timestamp  DATETIME NOT NULL,
+    dentro     TINYINT(1) DEFAULT 0,
+    FOREIGN KEY (Id_usuario) REFERENCES Usuarios(Id_usuario)
+);
+
